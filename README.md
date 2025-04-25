@@ -15,5 +15,5 @@
 - Form validation and dynamic content
 
 ## 🌍 Live Demo
-(Include your GitHub Pages link here after deploying)
+ https://kalolo1330.github.io/chapchap-portifolio/
 
