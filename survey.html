@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CHAPCHAP Customer Survey">
+  <meta name="keywords"    content="CHAPCHAP, survey, feedback">
+  <meta name="author"      content="Your Name">
+  <title>Survey - CHAPCHAP</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>CHAPCHAP Customer Survey</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>We Value Your Feedback!</h2>
+    <form id="surveyForm">
+      <label for="age">1. What is your age range?</label><br>
+      <select id="age" name="age" required>
+        <option value="">Select</option>
+        <option value="under18">Under 18</option>
+        <option value="18-25">18 - 25</option>
+        <option value="26-35">26 - 35</option>
+        <option value="36+">36+</option>
+      </select><br><br>
+
+      <label>2. How often do you buy clothes?</label><br>
+      <input type="radio" name="frequency" value="weekly" required> Weekly<br>
+      <input type="radio" name="frequency" value="monthly"> Monthly<br>
+      <input type="radio" name="frequency" value="rarely"> Rarely<br><br>
+
+      <label>3. Which clothing styles do you prefer? (Select all that apply)</label><br>
+      <input type="checkbox" name="style" value="casual"> Casual<br>
+      <input type="checkbox" name="style" value="streetwear"> Streetwear<br>
+      <input type="checkbox" name="style" value="formal"> Formal<br>
+      <input type="checkbox" name="style" value="traditional"> Traditional<br><br>
+
+      <label for="feedback">4. Any feedback or suggestions for CHAPCHAP?</label><br>
+      <textarea id="feedback" name="feedback" rows="4"></textarea><br><br>
+
+      <button type="submit">Submit Survey</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CHAPCHAP Clothing Brand</p>
+    <button id="themeToggleBtnFooter4">Toggle Theme</button>
+  </footer>
+</body>
+</html>
+
