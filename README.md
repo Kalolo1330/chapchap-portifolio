@@ -14,6 +14,7 @@
 - Location map for CHAPCHAP HQ at UDOM
 - Form validation and dynamic content
 
-## 🌍 Live Demo
+## 🌍 Live Demo 
+[Click here to view my live website]
  https://kalolo1330.github.io/chapchap-portifolio/
 
